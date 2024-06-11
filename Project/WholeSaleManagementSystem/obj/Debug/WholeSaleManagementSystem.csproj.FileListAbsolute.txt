@@ -1,0 +1,74 @@
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\WholeSaleManagementSystem.exe.config
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\WholeSaleManagementSystem.exe
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\WholeSaleManagementSystem.pdb
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.csproj.AssemblyReference.cache
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Properties.Resources.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.csproj.GenerateResource.cache
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.exe.licenses
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.csproj.CoreCompileInputs.cache
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.csproj.CopyComplete
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.exe
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.pdb
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Admin.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.ManageProduct.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.ManageCustomer.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\CircularProgressBar.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\WinFormAnimation.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\CircularProgressBar.xml
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.ManageSeller.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.ManageCategory.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.LogIn.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Seller.SellingForm.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_Change_Password.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_Change_UserID.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_Edit_Profile.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_Profile.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_Signup.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_View_Profile.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.individualProduct.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.OrderList.resources
+I:\AIUB\Subjects and courses\7th semester\C#\Final Term\Project\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.ViewProduct.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\WholeSaleManagementSystem.exe.config
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\WholeSaleManagementSystem.exe
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\WholeSaleManagementSystem.pdb
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\CircularProgressBar.dll
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\WinFormAnimation.dll
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\bin\Debug\CircularProgressBar.xml
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.csproj.AssemblyReference.cache
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Admin.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_Change_Password.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_Change_UserID.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_Edit_Profile.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_Profile.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_Signup.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Customer_View_Profile.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.individualProduct.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.OrderList.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.ViewProduct.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.LogIn.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.ManageCategory.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.ManageCustomer.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.ManageProduct.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.ManageSeller.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Properties.Resources.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.Seller.SellingForm.resources
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.csproj.GenerateResource.cache
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.exe.licenses
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSal.21074A3F.Up2Date
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.exe
+C:\Users\S M Faisal\Downloads\WholeSaleManagementSystem\WholeSaleManagementSystem\obj\Debug\WholeSaleManagementSystem.pdb

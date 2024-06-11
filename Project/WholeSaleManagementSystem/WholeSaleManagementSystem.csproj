@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{64ABF46B-249A-4A46-8B73-363C8EB1AD31}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WholeSaleManagementSystem</RootNamespace>
+    <AssemblyName>WholeSaleManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>C:\Users\S M Faisal\Downloads\Compressed\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Classes\Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Classes\Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Customer.designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Customer_Change_Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Customer_Change_Password.designer.cs">
+      <DependentUpon>Customer_Change_Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Customer_Change_UserID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Customer_Change_UserID.designer.cs">
+      <DependentUpon>Customer_Change_UserID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Customer_Edit_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Customer_Edit_Profile.designer.cs">
+      <DependentUpon>Customer_Edit_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Customer_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Customer_Profile.designer.cs">
+      <DependentUpon>Customer_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Customer_Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Customer_Signup.designer.cs">
+      <DependentUpon>Customer_Signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Customer_View_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Customer_View_Profile.designer.cs">
+      <DependentUpon>Customer_View_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\individualProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customer\individualProduct.designer.cs">
+      <DependentUpon>individualProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\OrderList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\OrderList.designer.cs">
+      <DependentUpon>OrderList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\ViewProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\ViewProduct.designer.cs">
+      <DependentUpon>ViewProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database_Connection.cs" />
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Classes\ManageCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Classes\ManageCategory.Designer.cs">
+      <DependentUpon>ManageCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Classes\ManageCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Classes\ManageCustomer.Designer.cs">
+      <DependentUpon>ManageCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Classes\ManageProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Classes\ManageProduct.Designer.cs">
+      <DependentUpon>ManageProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Classes\ManageSeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Classes\ManageSeller.Designer.cs">
+      <DependentUpon>ManageSeller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seller_Classes\SellingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seller_Classes\SellingForm.Designer.cs">
+      <DependentUpon>SellingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleManagementStudioDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WholeSaleManagementStudioDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleManagementStudioDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WholeSaleManagementStudioDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleManagementStudioDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WholeSaleManagementStudioDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleManagementStudioDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WholeSaleManagementStudioDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleManagementStudioDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WholeSaleManagementStudioDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleManagementStudioDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WholeSaleManagementStudioDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleManagementStudioDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WholeSaleManagementStudioDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleManagementStudioDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WholeSaleManagementStudioDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleManagementStudioDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WholeSaleManagementStudioDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WholeSaleManagementStudioDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WholeSaleManagementStudioDataSet9.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_Classes\Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Customer_Change_Password.resx">
+      <DependentUpon>Customer_Change_Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Customer_Change_UserID.resx">
+      <DependentUpon>Customer_Change_UserID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Customer_Edit_Profile.resx">
+      <DependentUpon>Customer_Edit_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Customer_Profile.resx">
+      <DependentUpon>Customer_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Customer_Signup.resx">
+      <DependentUpon>Customer_Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Customer_View_Profile.resx">
+      <DependentUpon>Customer_View_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\individualProduct.resx">
+      <DependentUpon>individualProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\OrderList.resx">
+      <DependentUpon>OrderList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\ViewProduct.resx">
+      <DependentUpon>ViewProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Classes\ManageCategory.resx">
+      <DependentUpon>ManageCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Classes\ManageCustomer.resx">
+      <DependentUpon>ManageCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Classes\ManageProduct.resx">
+      <DependentUpon>ManageProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Classes\ManageSeller.resx">
+      <DependentUpon>ManageSeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Seller_Classes\SellingForm.resx">
+      <DependentUpon>SellingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="WholeSaleManagementStudioDataSet.xsc">
+      <DependentUpon>WholeSaleManagementStudioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WholeSaleManagementStudioDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet.xss">
+      <DependentUpon>WholeSaleManagementStudioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet1.xsc">
+      <DependentUpon>WholeSaleManagementStudioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WholeSaleManagementStudioDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet1.xss">
+      <DependentUpon>WholeSaleManagementStudioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet2.xsc">
+      <DependentUpon>WholeSaleManagementStudioDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WholeSaleManagementStudioDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet2.xss">
+      <DependentUpon>WholeSaleManagementStudioDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet3.xsc">
+      <DependentUpon>WholeSaleManagementStudioDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WholeSaleManagementStudioDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet3.xss">
+      <DependentUpon>WholeSaleManagementStudioDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet4.xsc">
+      <DependentUpon>WholeSaleManagementStudioDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WholeSaleManagementStudioDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet4.xss">
+      <DependentUpon>WholeSaleManagementStudioDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet5.xsc">
+      <DependentUpon>WholeSaleManagementStudioDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WholeSaleManagementStudioDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet5.xss">
+      <DependentUpon>WholeSaleManagementStudioDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet6.xsc">
+      <DependentUpon>WholeSaleManagementStudioDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WholeSaleManagementStudioDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet6.xss">
+      <DependentUpon>WholeSaleManagementStudioDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet7.xsc">
+      <DependentUpon>WholeSaleManagementStudioDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WholeSaleManagementStudioDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet7.xss">
+      <DependentUpon>WholeSaleManagementStudioDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet8.xsc">
+      <DependentUpon>WholeSaleManagementStudioDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WholeSaleManagementStudioDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet8.xss">
+      <DependentUpon>WholeSaleManagementStudioDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet9.xsc">
+      <DependentUpon>WholeSaleManagementStudioDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WholeSaleManagementStudioDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WholeSaleManagementStudioDataSet9.xss">
+      <DependentUpon>WholeSaleManagementStudioDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reseller_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attract_customers_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\category_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_promotion_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_promotion_70px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_developer_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_developer_16.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

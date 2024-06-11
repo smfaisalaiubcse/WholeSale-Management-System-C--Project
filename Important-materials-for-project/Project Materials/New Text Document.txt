@@ -1,0 +1,4 @@
+Form Height Weight : 800, 450
+Form Color : DarkMagenta
+Text Size between : 10 - 14
+Text Font : Century Gothic
